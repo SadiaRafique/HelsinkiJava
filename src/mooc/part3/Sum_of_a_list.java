@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 public class Sum_of_a_list {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.class);
+        Scanner scanner = new Scanner(System.in);
         ArrayList<Integer> list = new ArrayList<>();
 
         while (true) {
