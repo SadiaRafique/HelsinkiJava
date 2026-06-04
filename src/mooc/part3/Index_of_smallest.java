@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.Scanner;
 public class Index_of_smallest {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc= new Scanner(System.in);
         ArrayList<Integer> list = new ArrayList<>();
 
         while (true) {
-            int input = Integer.valueOf(scanner.nextLine());
+            int input = Integer.valueOf(sc.nextLine());
             if (input == 9999) {
                 break;
             }
