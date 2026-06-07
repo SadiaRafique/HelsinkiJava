@@ -4,10 +4,10 @@ import java.util.Scanner;
 import java.util.ArrayList;
 public class Last_in_list {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         ArrayList<String> list = new ArrayList<>();
         while(true){
-            String name = input.nextLine();
+            String name = sc.nextLine();
             if(name.isEmpty()){
                 break;
             }else{
