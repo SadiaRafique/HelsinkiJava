@@ -4,10 +4,10 @@ import java.util.Scanner;
 import java.util.ArrayList;
 public class Second_plus_third {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner sc= new Scanner(System.in);
         ArrayList<Integer> list = new ArrayList<>();
         while (true) {
-            int num = Integer.valueOf(input.nextLine());
+            int num = Integer.valueOf(sc.nextLine());
             if (num == 0) {
                 break;
             } else {
