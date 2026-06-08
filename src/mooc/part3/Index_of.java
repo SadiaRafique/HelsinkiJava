@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.Scanner;
 public class Index_of {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         ArrayList<Integer> list = new ArrayList<>();
         while (true) {
-            int input = Integer.valueOf(scanner.nextLine());
+            int input = Integer.valueOf(sc.nextLine());
             if (input == -1) {
                 break;
             }
@@ -16,7 +16,7 @@ public class Index_of {
 
         System.out.println("");
         System.out.print("Search for? ");
-        int searchFor = Integer.valueOf(scanner.nextLine());
+        int searchFor = Integer.valueOf(sc.nextLine());
 
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i) == searchFor) {
