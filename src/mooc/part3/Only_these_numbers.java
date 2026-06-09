@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.Scanner;
 public class Only_these_numbers {
         public static void main(String[] args) {
-            Scanner scanner = new Scanner(System.in);
+            Scanner sc = new Scanner(System.in);
             ArrayList<Integer> numbers = new ArrayList<>();
             while (true) {
-                int number = Integer.valueOf(scanner.nextLine());
+                int number = Integer.valueOf(sc.nextLine());
                 if (number == -1) {
                     break;
                 }
