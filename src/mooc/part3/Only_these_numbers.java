@@ -17,10 +17,10 @@ public class Only_these_numbers {
             System.out.println("");
 
             System.out.print("From where? ");
-            int start = Integer.valueOf(scanner.nextLine());
+            int start = Integer.valueOf(sc.nextLine());
 
             System.out.print("To where? ");
-            int end = Integer.valueOf(scanner.nextLine());
+            int end = Integer.valueOf(sc.nextLine());
 
             for (int i = start; i <= end; i++) {
                 System.out.println(numbers.get(i));
