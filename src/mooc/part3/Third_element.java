@@ -4,10 +4,10 @@ import java.util.Scanner;
 import java.util.ArrayList;
 public class Third_element {
     public static void main(String[] args) {
-        Scanner sca = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         ArrayList<String> list = new ArrayList<>();
         while (true) {
-            String name = sca.nextLine();
+            String name = sc.nextLine();
             if (name.isEmpty()) {
                 break;
             } else {
