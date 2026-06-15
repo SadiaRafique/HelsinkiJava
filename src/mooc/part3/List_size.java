@@ -4,10 +4,10 @@ import java.util.Scanner;
 import java.util.ArrayList;
 public class List_size {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         ArrayList<String> list = new ArrayList<>();
         while (true) {
-            String s = sc.nextLine();
+            String s = scanner.nextLine();
             if (s.isEmpty()) {
                 break;
             } else {
