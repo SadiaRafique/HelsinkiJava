@@ -3,11 +3,11 @@ package mooc.part2;
 import java.util.Scanner;
 public class Averageofpositivenumbers {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner sca=new Scanner(System.in);
         int cp = 0;
         int sum=0;
         while(true){
-            int n = Integer.valueOf(sc.nextLine());
+            int n = Integer.valueOf(sca.nextLine());
             if(n==0){
                 break;
             }
